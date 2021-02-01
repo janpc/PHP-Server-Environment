@@ -66,7 +66,7 @@ body{
     margin:0;
 }
 
-.loggin{
+.login{
     background-color: #ffffff22;
     backdrop-filter: blur(3px);
     width:25%;
@@ -77,13 +77,13 @@ body{
     padding: 0.2em 0 0.2em 0;
     box-shadow: 2px 2px 5px #0004;
 }
-.loggin>div{
+.login>div{
     width: 50%;
     min-width: 200px;
     max-width: 300px;
     margin: 1em auto;
 }
-.loggin label{
+.login label{
     font-weight: 500;
     font-size: large;
 
@@ -91,7 +91,7 @@ body{
     margin-top: 1em;
 }
 
-.loggin input[type='email'], .loggin input[type='password']{
+.login input[type='email'], .login input[type='password']{
     background-color: #ffffff22;
     font-weight: 400;
     width: 100%;
@@ -103,11 +103,11 @@ body{
     box-shadow:  inset 1px 1px 2px #0004;
     margin: 0.4em auto;
 }
-.loggin input[type='email']:hover, .loggin input[type='password']:hover, .loggin input[type='email']:focus, .loggin input[type='password']:focus{
+.login input[type='email']:hover, .login input[type='password']:hover, .login input[type='email']:focus, .login input[type='password']:focus{
     outline: none;
     background-color: #ffffff66;
 }
-.loggin input[type='submit']{
+.login input[type='submit'], .login button{
     display: block;
     margin: 0.4em auto;
     margin-top: 1em;
@@ -118,13 +118,20 @@ body{
     font-size: medium;
     box-shadow: 1px 1px 3px #0004;
 }
-.loggin input[type='submit']:hover,.loggin input[type='submit']:focus{
+.login input[type='submit']:hover,.login input[type='submit']:focus, .login button:hover, .login button:focus{
     outline: none;
     background-color: #ffffffaa;
 }
-.loggin span{
+.login span{
     font-weight: 500;
     font-size: small;
     margin: 0.2em 0 0 0.5em ;
     color: #b31010;
+}
+
+.login p{
+    font-weight: 400;
+    font-size: xx-large;
+    margin: 0.2em 0 0 0.5em ;
+    text-align: center;
 }

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <section class='loggin'>
+    <section class='login'>
         <div>
             <form action="validate.php" method="post">
                 <label for="email">Email:</label>
